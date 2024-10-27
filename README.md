@@ -38,9 +38,20 @@ O `Bot@ReverseBot` responde automaticamente a qualquer mensagem pública inverte
    go run server.go
 
 2. Abra um segundo terminal e execute o cliente:
-    ```bash
+   ```bash
    go run client.go
 
 3. Abra um terceiro terminal e execute o bot:
-    ```bash
+   ```bash
    go run bot.go
+
+## Come usar os comandos?
+
+1. Troca de Nome
+   ```bash
+   \changenick novo_apelido
+
+2. Mensagem Privada
+   ```bash
+   \msg @nome_do_usuario Mensagem aqui
+
